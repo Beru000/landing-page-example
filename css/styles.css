@@ -4,9 +4,17 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: Roboto, sans-serif;
+  height: 100vh;
+  width: 100%;
+}
+
 .header {
   display: flex;
   flex-direction: column;
+  background-color: #1f2937;
+  color: white;
 }
 
 .navbar {
@@ -16,14 +24,54 @@
   padding: 20px 200px;
 }
 
-a {
+.logo {
+  font-size: 24px;
+  font-weight: 500;
+  color: #f9faf8;
   text-decoration: none;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
 }
 
 ul {
   list-style: none;
   display: flex;
 }
+
 li {
   margin-right: 20px;
+}
+
+.hero {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+  font-weight: 300;
+}
+
+.btn {
+  padding: 7px 25px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: blue;
+  border-radius: 8px;
+  color: white;
+  border: 0;
 }
