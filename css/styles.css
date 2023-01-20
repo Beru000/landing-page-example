@@ -75,3 +75,29 @@ li {
   color: white;
   border: 0;
 }
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.infoheader {
+}
+
+.cards {
+  text-align: center;
+  display: flex;
+  margin: 30px 500px;
+}
+
+.card {
+  text-align: center;
+  margin: 20px;
+}
+
+.infoimg {
+  width: 150px;
+  height: auto;
+}
